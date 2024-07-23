@@ -1,14 +1,33 @@
 #navbar{
     border-color: black;
     border-style: solid;
+    margin-bottom: 25px;
 }
 
-#content{
+/* #content{
     border-color: black;
     border-style: solid;
     padding: 10px;
-}
+} */
 
 body {
     min-height: 75rem;
+}
+
+.input_textarea {
+    height: 100px;
+    width: 95px;
+    margin-bottom: -7px;
+}
+
+.input_dimensions {
+    width: 100px;
+    border-color: black;
+    border-style: solid;
+}
+
+.post_dimensions {
+    height: 90px;
+    border-color: black;
+    border-style: solid;
 }
