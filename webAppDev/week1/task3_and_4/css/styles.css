@@ -1,0 +1,14 @@
+#navbar{
+    border-color: black;
+    border-style: solid;
+}
+
+#content{
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+}
+
+body {
+    min-height: 75rem;
+}
