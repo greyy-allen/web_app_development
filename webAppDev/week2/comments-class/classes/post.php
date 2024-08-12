@@ -1,6 +1,8 @@
 <?php
 namespace wad;
 
+use wad\Comment;
+
 //Class Post for post object instance creation
 class Post{
   protected $user;
@@ -38,13 +40,13 @@ class Post{
   }
 
   // Handles return for comments
-  function getComment(){
+  function getComments(){
     return $this->comments;
   }
 
   // Since comment is allowed to be 0, comments is added through this function
   function addComment($user, $comment){
-    $this->comments[] = array("user" => $user, "comment"=>$comment);
+    $this->comments[] = new Comment($user, $comment);
   }
 }
 ?>
